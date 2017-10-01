@@ -30,7 +30,7 @@ def main():
     PLAYER = ONE
     GAMEOVER  = FALSE
     WINNER = ZERO
-    GRID_SIZE = FOUR
+    GRID_SIZE = THREE
     GRID = INIT_LIST(GRID_SIZE)(INIT_LIST(GRID_SIZE)(ZERO))
 
     # Play
