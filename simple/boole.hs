@@ -15,7 +15,7 @@ c_or x y =  x true (y true false)
 c_and :: ((a -> a -> a) -> (a -> a -> a) -> (a -> a -> a)) -> ((a -> a -> a) -> (a -> a -> a) -> (a -> a -> a)) -> a -> a -> a 
 c_and x y = x (y true false) false
 
-if_then_else = id
+if_then_else = id  -- if_then_else test if_thing else_thing = test if_thing else_thing
 
 --define a helper function 
 
